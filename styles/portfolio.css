@@ -93,7 +93,43 @@ p {
 .project-description {
   padding: 100px 60px;
 }
+footer {
+  margin: 90px 0;
+}
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 40px;
+  border-radius: 14px;
+}
+footer .contact-box p {
+  margin: 0px;
+}
+footer h4 {
+  font-family: var(--heading-font-family);
+  font-size: 48px;
+}
 
+footer .email-link {
+  font-size: 24px;
+  text-decoration: none;
+  color: black;
+}
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+footer .social-links a {
+  margin: 0 20px;
+  padding: 18px 22px;
+  font-size: 18px;
+  border-radius: 50%;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+}
+footer .social-links a:hover {
+  color: white;
+  background: var(--branding-color);
+  transition: all 100ms ease-in-out;
+}
 @media (max-width: 960px) {
   h1 {
     font-size: 60px;
